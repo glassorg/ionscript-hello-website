@@ -1,0 +1,17 @@
+{
+    "name": "ionscript-hello-website",
+    "version": "0.1.0",
+    "license": "MIT",
+    "scripts": {
+        "watch": "rm -rf .cache && parcel src/index.html"
+    },
+    "dependencies": {
+        "ionscript": "^0.3.0",
+        "parcel-bundler": "^1.12.4",
+        "react": "^17.0.1",
+        "react-dom": "^17.0.1"
+    },
+    "devDependencies": {
+        "typescript": "^4.1.3"
+    }
+}
