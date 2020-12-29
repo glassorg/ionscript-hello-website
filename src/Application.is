@@ -1,15 +1,9 @@
-import "react"
-    useState
+import .Counter
 
-export default () =>
-    let [count, setCount] = useState(0)
+export default Application() =>
     return
-        <div/>
-            "Hello Ion Parcel"
-            for i in [ 1, 2, 3, 4, 5 ]
-                <div key={ i }>{ i }</div>
-            <button/>
-                onClick: () => setCount(count + 1)
-                "Click Me"
-            if count > 0
-                <p>Clicked {count} times</p>
+        <div style={{ display: "flex", flexDirection: "row" }} />
+            <Counter share="1" />
+            <Counter share="1" />
+            // <Counter share="2" />
+            // <Counter share="2" />

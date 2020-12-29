@@ -14,7 +14,7 @@
   resolved "https://registry.yarnpkg.com/@babel/compat-data/-/compat-data-7.12.7.tgz#9329b4782a7d6bbd7eef57e11addf91ee3ef1e41"
   integrity sha512-YaxPMGs/XIWtYqrdEOZOCPsVWfEoriXopnsz3/i7apYPXQ3698UFhS6dVT1KN5qOsWmVgw/FOrmQgpRaZayGsw==
 
-"@babel/core@^7.12.3", "@babel/core@^7.4.4":
+"@babel/core@^7.12.10", "@babel/core@^7.12.3", "@babel/core@^7.4.4":
   version "7.12.10"
   resolved "https://registry.yarnpkg.com/@babel/core/-/core-7.12.10.tgz#b79a2e1b9f70ed3d84bbfb6d8c4ef825f606bccd"
   integrity sha512-eTAlQKq65zHfkHZV0sIVODCPGVgoo1HdBlbSLi9CqOzuZanMv2ihzY+4paiKr1mH+XmYESMAmJ/dpZ68eN6d8w==
@@ -933,10 +933,10 @@
   resolved "https://registry.yarnpkg.com/@glas/test/-/test-1.0.3.tgz#f2d1780aed3bb42b34de27920fee27f7f86d02df"
   integrity sha512-SJqhXBwN48D60njrq544fxowiqrFivQ9FfgeHYyCNv99p72KE19kFDXY1aqsAY7MN9hnBS3P+0/3VBqhVw92Bw==
 
-"@glas/traverse@^1.0.5":
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/@glas/traverse/-/traverse-1.0.5.tgz#1161178ff8706b51937d23bbb0a7e3eeea794ae5"
-  integrity sha512-S655DBIh+SZ8dESb5MCo3p6m0CHl9qii7kfpXSRS128XFAkE0c8z+bwKbaMvDyLZjuA74T7fCdjwygdVKHd4yw==
+"@glas/traverse@^1.0.6":
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/@glas/traverse/-/traverse-1.0.6.tgz#a3b8d8e40f4f8a2c66f9c5f39303d55335823e6c"
+  integrity sha512-1nM/AzPUkZ69blHCReZ+DSjuAumQRhHRPKWA9KjOdvNqDp//IgAiqEN656vfP4mvbcHMHdgLrXDl146PzMwqfQ==
   dependencies:
     "@glas/test" "^1.0.3"
     "@types/node" "^14.6.2"
@@ -2867,15 +2867,15 @@ inherits@2.0.3:
   resolved "https://registry.yarnpkg.com/inherits/-/inherits-2.0.3.tgz#633c2c83e3da42a502f52466022480f4208261de"
   integrity sha1-Yzwsg+PaQqUC9SRmAiSA9CCCYd4=
 
-ionscript@^0.3.7:
-  version "0.3.7"
-  resolved "https://registry.yarnpkg.com/ionscript/-/ionscript-0.3.7.tgz#ea18d8e23bc8e79230552ad2e40873cebcaeb62f"
-  integrity sha512-OvEk1SDAzbdI8Lks5TjqazR/4R3+fGXVUvS0qWrgDOjzVAc4mcB4yhN74/gXSylB5eRvl42gRnh+gmOHhj4i8g==
+ionscript@^0.3.8:
+  version "0.3.13"
+  resolved "https://registry.yarnpkg.com/ionscript/-/ionscript-0.3.13.tgz#d59d37e2a41b6338f3e096b5333d64e2e6ada013"
+  integrity sha512-kvXvTIGa5FTnefa/bLudcB4NqRIQLfPalyqq9zKe6WNU/mjHEhtzxOOU9gVeA79HchedL6cDL9XMcqfPmPMUeA==
   dependencies:
     "@babel/core" "^7.12.3"
     "@babel/plugin-transform-modules-commonjs" "^7.12.1"
     "@glas/test" "^1.0.3"
-    "@glas/traverse" "^1.0.5"
+    "@glas/traverse" "^1.0.6"
     escodegen "^2.0.0"
     jsondiffpatch "0.2.5"
     pegs "^0.1.6"
