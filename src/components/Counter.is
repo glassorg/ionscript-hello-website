@@ -6,7 +6,7 @@ export default Counter({ share }) =>
     let [count, setCount] = useStore(Number, share, 0)
     return
         <div/>
-            "Hello Ion Parcel Larger"
+            "Hello Ion Parcel"
             <div/>
                 <button/>
                     onClick: () => setCount(count + 1)

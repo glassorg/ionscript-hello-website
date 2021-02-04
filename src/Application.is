@@ -1,4 +1,4 @@
-import .Counter
+import .components.Counter
 
 export default Application() =>
     return
